@@ -1,5 +1,5 @@
 body{
-    background-color: var(--color-black);
+	background-color: var(--color-black);
 }
 
 .wrapper {
@@ -44,10 +44,9 @@ body{
 
 .titleWrapper {
     width: 105px;
-    height: 21px;
-    gap: 0px;
-    opacity: 0px;
-    
+    height: auto; /* Adjust height as needed */
+    opacity: 1; /* Adjust opacity if needed */
+    gap: 0px; /* Adjust gap between elements */
 }
 
 .titleWrapper p {
@@ -57,5 +56,5 @@ body{
     line-height: 21px;
     text-align: left;
     color: var(--color-white);
+    margin: 0; /* Remove default margins */
 }
-

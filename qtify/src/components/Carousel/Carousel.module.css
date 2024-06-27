@@ -1,0 +1,19 @@
+.container {
+	position: relative;
+}
+
+.leftNav {
+	position: absolute;
+	left: 10px;
+	top: 40%;
+	transform: translateY(-50%);
+	z-index: 5;
+}
+
+.rightNav {
+	position: absolute;
+	right: 10px;
+	top: 40%;
+	transform: translateY(-50%);
+	z-index: 5;
+}

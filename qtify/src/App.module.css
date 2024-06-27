@@ -1,0 +1,19 @@
+.albumSectionWrapper {
+	padding: 0px 30px 60px;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	color:var(--color-white);
+}
+
+.tabs {
+	margin-left: 15px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	color: var(--text-background-color);
+}
+
+hr{
+	color: var(--primary-background-color) !important;
+	background-color: var(--primary-background-color) !important;
+}
